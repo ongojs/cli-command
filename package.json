@@ -1,0 +1,35 @@
+{
+  "name": "@ongojs/cli-command",
+  "version": "0.0.0",
+  "description": "cli-command",
+  "main": "index.js",
+  "bin": {
+    "cli-command": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ongojs/cli-command.git"
+  },
+  "keywords": [
+    "cli",
+    "command"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ongojs/cli-command/issues"
+  },
+  "homepage": "https://github.com/ongojs/cli-command#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "vitest": "^0.28.4"
+  }
+}

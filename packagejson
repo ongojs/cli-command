@@ -1,0 +1,40 @@
+{
+  "name": "@mongodb-model/cli-command",
+  "version": "0.0.0",
+  "description": "cli-command",
+  "main": "index.js",
+  "bin": {
+    "cli-command": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mongodb-model/cli-command.git"
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "cli-command",
+    "stream",
+    "duplex",
+    "transform",
+    "eventEmitter"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mongodb-model/cli-command/issues"
+  },
+  "homepage": "https://github.com/mongodb-model/cli-command#readme",
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "vitest": "0.25.1"
+  }
+}
